@@ -199,11 +199,14 @@ nav a:hover {
   transition: all 0.3s ease;
 }
 
+/* ★★★ ALTERAÇÃO FEITA AQUI ★★★ */
 .produto img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 260px;      /* mantém todas no mesmo tamanho */
+  object-fit: cover;  /* evita distorção */
   border-radius: 68px;
 }
+/* ★★★ FIM DA ALTERAÇÃO ★★★ */
 
 .produto h3 {
   margin: 10px 0;
